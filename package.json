@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^3.11.1",
+    "gatsby-cli": "^3.12.0",
     "gatsby-plugin-gatsby-cloud": "^2.11.0",
     "gatsby-plugin-image": "^1.11.0",
     "gatsby-plugin-manifest": "^3.11.0",
@@ -20,7 +21,8 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.3.2"
+    "prettier": "2.3.2",
+    "standard-version": "^9.3.1"
   },
   "keywords": [
     "gatsby"
@@ -33,6 +35,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "release": "standard-version",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
